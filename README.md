@@ -59,7 +59,7 @@ View ← Controller
 
 ## 📚 **Learning Resources**
 - **Official Docs:** [https://laravel.com/docs](https://laravel.com/docs)  
-- **YouTube:** [Laravel Daily](https://www.youtube.com/c/LaravelDaily)  
+- **YouTube:** [Laravel Daily](https://youtube.com/playlist?list=PL0b6OzIxLPbz7JK_YYrRJ1KxlGG4diZHJ&si=60Ly8RNXQnJjIx-c)  
 - **Books:** "Laravel: Up & Running", "Laravel Beyond CRUD"  
 - **Courses:** Laracasts, Udemy Laravel Path  
 
@@ -68,7 +68,7 @@ View ← Controller
 ## 🚀 **How to Use This Repo**
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/MyLaravel.git
+   git clone https://github.com/MuhammadBurhanArshad/MyLaravel.git
    cd MyLaravel
    ```
 2. Install dependencies:
@@ -83,8 +83,8 @@ View ← Controller
 ---
 
 ## 🔗 **Connect with Me**
-- **GitHub:** [@YourUsername](https://github.com/yourusername)  
-- **LinkedIn:** [Your Profile](https://linkedin.com/in/yourprofile)  
+- **GitHub:** [@MuhamamdBurhanArshad](https://github.com/MuhammadBurhanArshad)  
+- **Linkedin:** [@MuhamamdBurhanArshad](https://pk.linkedin.com/in/muhammadburhanarshad)  
 
 ---
 
