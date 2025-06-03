@@ -20,6 +20,10 @@ DB::table('users')
     ->join('posts', 'users.id', '=', 'posts.user_id')
     ->select('users.*', 'posts.title')
     ->get();
+
+    //SELECT users.name, posts.title
+    //FROM users
+    //INNER JOIN posts ON users.id = posts.user_id
 ```
 
 ### 2. Left Join
@@ -28,6 +32,10 @@ DB::table('users')
 DB::table('users')
     ->leftJoin('posts', 'users.id', '=', 'posts.user_id')
     ->get();
+
+    //SELECT *
+    //FROM users
+    //LEFT JOIN posts ON users.id = posts.user_id
 ```
 
 ### 3. Right Join
@@ -36,6 +44,10 @@ DB::table('users')
 DB::table('posts')
     ->rightJoin('users', 'posts.user_id', '=', 'users.id')
     ->get();
+
+    //SELECT *
+    //FROM posts
+    //RIGHT JOIN users ON posts.user_id = users.id
 ```
 
 ### 4. Cross Join
@@ -44,6 +56,10 @@ DB::table('posts')
 DB::table('sizes')
     ->crossJoin('colors')
     ->get();
+
+    //SELECT *
+    //FROM sizes
+    //CROSS JOIN colors
 ```
 
 ## Advanced Join Techniques
@@ -57,6 +73,10 @@ DB::table('users')
              ->where('contacts.active', '=', 1);
     })
     ->get();
+
+    //SELECT *
+    // FROM users
+    //  INNER JOIN contacts ON users.id = contacts.user_id AND contacts.active = 1
 ```
 
 ### Subquery Joins
