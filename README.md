@@ -2,6 +2,8 @@
 
 A curated collection of Laravel notes, code examples, and projects as I learn Laravel framework from scratch. This repo documents my journey in mastering modern PHP web development with Laravel.
 
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://laravel.com/img/logomark.min.svg" width="400" alt="Laravel Logo"></a></p>
+
 ---
 
 ## 📌 **About Laravel**
