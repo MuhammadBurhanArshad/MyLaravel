@@ -54,6 +54,23 @@ Route::put('/users/{id}', 'UserController@update');
 Route::delete('/users/{id}', 'UserController@destroy');
 ```
 
+### Route Parameters
+```php
+Route::get('/posts/{post}', function ($postId) {
+    // ...
+});
+
+// Optional parameters
+Route::get('/users/{name?}', function ($name = 'Guest') {
+    // ...
+});
+
+// Regular expression constraints
+Route::get('/users/{id}', function ($id) {
+    // ...
+})->where('id', '[0-9]+');
+```
+
 ## Route Commands
 
 Laravel provides several Artisan commands for working with routes:
@@ -76,23 +93,6 @@ php artisan route:list --json
 
 # Filter routes by method (GET, POST, etc.)
 php artisan route:list --method=GET
-```
-
-### Route Parameters
-```php
-Route::get('/posts/{post}', function ($postId) {
-    // ...
-});
-
-// Optional parameters
-Route::get('/users/{name?}', function ($name = 'Guest') {
-    // ...
-});
-
-// Regular expression constraints
-Route::get('/users/{id}', function ($id) {
-    // ...
-})->where('id', '[0-9]+');
 ```
 
 ## Best Practices
