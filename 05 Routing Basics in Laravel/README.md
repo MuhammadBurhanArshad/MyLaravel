@@ -54,6 +54,30 @@ Route::put('/users/{id}', 'UserController@update');
 Route::delete('/users/{id}', 'UserController@destroy');
 ```
 
+## Route Commands
+
+Laravel provides several Artisan commands for working with routes:
+
+```bash
+# List all available route commands
+php artisan route -h
+
+# Display a list of all registered routes
+php artisan route:list
+
+# List only application routes (excluding vendor packages)
+php artisan route:list --except-vendor
+
+# Filter routes by path
+php artisan route:list --path=post
+
+# Show routes in JSON format
+php artisan route:list --json
+
+# Filter routes by method (GET, POST, etc.)
+php artisan route:list --method=GET
+```
+
 ### Route Parameters
 ```php
 Route::get('/posts/{post}', function ($postId) {
