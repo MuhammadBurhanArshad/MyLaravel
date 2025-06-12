@@ -17,7 +17,7 @@ Route::get('/post', function () {
 
 
 // here is another method to direct access via route
-Route::view('post', '/post');
+Route::view('/post', 'post');
 
 
 Route::get('/post/firstpost', function() {
