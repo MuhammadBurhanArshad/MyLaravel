@@ -1,3 +1,5 @@
+@extends('layouts.masterlayout')
+
 @include('web.components/header', ['page' => 'Home'])
     <h1>Main Heading</h1>
     <h2>Home Page</h2>
