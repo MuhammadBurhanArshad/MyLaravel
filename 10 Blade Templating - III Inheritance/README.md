@@ -1,7 +1,5 @@
 # Template Inheritance in Laravel Blade
 
-Here's a recreation of the template inheritance structure from the routing parameters example:
-
 ## Base Layout Template
 
 ```php
