@@ -61,7 +61,7 @@ View ← Controller
 
 ## 📚 **Learning Resources**
 - **Official Docs:** [https://laravel.com/docs](https://laravel.com/docs)  
-- **YouTube:** [Laravel Daily](https://youtube.com/playlist?list=PL0b6OzIxLPbz7JK_YYrRJ1KxlGG4diZHJ&si=60Ly8RNXQnJjIx-c)  
+- **YouTube:** [Yahoo Baba](https://youtube.com/playlist?list=PL0b6OzIxLPbz7JK_YYrRJ1KxlGG4diZHJ&si=60Ly8RNXQnJjIx-c)  
 - **Books:** "Laravel: Up & Running", "Laravel Beyond CRUD"  
 - **Courses:** Laracasts, Udemy Laravel Path  
 
